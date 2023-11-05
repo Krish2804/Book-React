@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import tatvasoftlogo from '../assets/Tatvasoft-Logo.jpg'
+// import tatvasoftlogo from '../assets/Tatvasoft-Logo.jpg'
 import { Link } from 'react-router-dom'
 import { HiShoppingCart } from "react-icons/hi";
 import Contextpage from '../ContextPage';
@@ -22,7 +22,7 @@ const UpperNavbar = () => {
 
             <div className="flex justify-between items-center px-[40px]">
                 <Link to="/">
-                    <img src={tatvasoftlogo} alt="Logo" className="h-[100px]" />
+                    {/* <img src={tatvasoftlogo} alt="Logo" className="h-[100px]" /> */}
                 </Link>
 
                 {/* navbar */}
